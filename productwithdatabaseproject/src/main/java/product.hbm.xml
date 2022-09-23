@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+
+
+<hibernate-mapping>
+
+
+
+
+<class table="PRODUCT_MASTER" name="com.yash.productwithdatabaseproject.Product">
+
+
+
+<id name="prodId" type="int" column="PRODUCT_ID"/>
+
+
+
+<property name="prodName" type="string" column="PRODUCT_NAME"/>
+
+
+
+<property name="prodPrice" type="double" column="PRODUCT_PRICE"/>
+
+
+
+<property name="prodVendor" type="string" column="PRODUCT_VENDOR"/>
+
+
+
+<property name="prodQty" type="int" column="PRODUCT_QTY"/>
+
+
+
+</class>
+
+</hibernate-mapping>
