@@ -1,0 +1,22 @@
+#first {
+  width: 40%;
+  height: 40%;
+  position: absolute; 
+  margin: auto;
+  background:pink;
+  top :0; left: 0; right: 0; bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+}
+#second{
+  width: 35%;
+  height: 40%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: 695b00;
+ 
+  margin: auto;
+  background:cornsilk;
+  top :0; left: 0; right: 0; bottom: 0;
+  box-shadow: grey;
+}
